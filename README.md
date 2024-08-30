@@ -14,13 +14,7 @@ Create `fic_list.txt` text file in the root folder and place up to 10 entry IDs 
 018aaeda-ad9b-724e-a05b-216f3abb1e57
 018b609d-e380-70dc-a9a7-79cdcd8751eb
 018baa3b-9266-77ce-9024-85cf5e8e2e33
-018bf84f-4dae-7915-838c-9bed73178f58
-018c0d74-4068-7ec6-9d4c-80e8101a53b9
-018c44f3-0676-7e44-8ca7-24ab3ba94f45
-018c581a-2413-746f-a8d7-08a3d411fd9a
-018c5449-2986-7086-8937-1ee8486bc9ab
-018caf73-e256-7bbc-a93f-135d512a2bbd
-018cff57-f297-72a6-86b3-857fcb1157e4
+...
 ```
 
 Be sure to read the [Limitations](#limitaitions) section and you're good to go. 
@@ -40,3 +34,8 @@ python ficbook_downloader.py
 ```
 
 Enjoy your donwloaded files.
+
+### Optional arguments
+
+- `-f`, `--format` - specify download format (epub, txt, pdf or fb2). Default is epub.
+- `-s`, `--silent` - do not ping after the script is finished.
