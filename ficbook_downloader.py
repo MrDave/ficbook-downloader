@@ -35,11 +35,12 @@ def main():
 		link = f"https://ficbook.net/fanfic_download/{fanfic_id}/{download_format}"
 		webbrowser.open(link)
 
-		sleep(10)
-		sleep_counter += 1
 		if sleep_counter > 4:
 			sleep(60)
 			sleep_counter = 0
+		else:
+			sleep(10)
+			sleep_counter += 1
 
 	print("Done!")
 	if not args.silent:
