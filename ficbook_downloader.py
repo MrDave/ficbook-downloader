@@ -33,7 +33,7 @@ def main():
 	download_format = args.format
 	for fanfic_id in fanfic_ids:
 		link = f"https://ficbook.net/fanfic_download/{fanfic_id}/{download_format}"
-		webbrowser.open(link)
+		webbrowser.open(link, autoraise=False)
 
 		if sleep_counter > 4:
 			sleep(60)

@@ -22,7 +22,7 @@ Be sure to read the [Limitations](#limitaitions) section and you're good to go.
 ## Limitations
 
 - Downloading is only allowed for registered users, so you will need and account on the website. Furthermore, since the script works by opening browser tabs, you need to log in your current browser before running the downloader script.
-- Ficbook only allows downloading up to 10 entries per day, so if you'd like to download more, you'll need to run downloader a souple of times over the course of several days. It might be possible to bypass this by using several accounts, but that's not recommended.
+- Ficbook only allows downloading up to 10 entries per day, so if you'd like to download more, you'll need to run downloader a couple of times over the course of several days. It might be possible to bypass this by using several accounts, but that's not recommended.
 - Downloader isn't intended to be fully automatic, you should watch the process as ficbook might (and most likely will) ask you to confirm you're human (by chencking a checkmark captcha).
 
 ## Running the script
